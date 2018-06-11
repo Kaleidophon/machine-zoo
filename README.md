@@ -7,7 +7,7 @@ each model, using GRU and LSTM respectively, were created.
 
 ## Evaluation results
 
-In the section we show the evaluation results for the selected models:
+In the section we show the evaluation results (in terms of sequence accuracy) for the selected models:
 
 ### Baseline GRU
 
@@ -18,8 +18,9 @@ Heldout sets:
 | 1 | | | | |
 | 2 | | | | |
 | 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 4 | 0.2188 | 0.2250 | 0.0312 | 0.0312 |
+| 5 | 0.2344 | 0.2000 | 0.0677 | 0.0625 |
+
 
 Longer compositions sets:
 
@@ -28,8 +29,8 @@ Longer compositions sets:
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 4 | 0.1268 | 0.0000 | 0.0729 |
+| 5 | 0.1618 | 0.0000 | 0.0830 |
 
 
 ### Baseline LSTM
@@ -41,8 +42,8 @@ Heldout sets:
 | 1 | | | | |
 | 2 | | | | |
 | 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 4 | 0.1406 | 0.1250 | 0.0469 | 0.0000 |
+| 5 | 0.2188 | 0.2500 | 0.0521 | 0.0000 |
 
 Longer compositions sets:
 
@@ -51,8 +52,8 @@ Longer compositions sets:
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 4 | 0.0625 | 0.0000 | 0.0415 |
+| 5 | 0.0938 | 0.0000 | 0.0563 |
 
 ### Guided Attention GRU
 
@@ -63,8 +64,8 @@ Heldout sets:
 | 1 | | | | |
 | 2 | | | | |
 | 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 4 | 1.0000 | 1.0000 | 0.9844 | 0.9688 |
+| 5 | 1.0000 | 1.0000 | 0.9375 | 0.9062 |
 
 Longer compositions sets:
 
@@ -73,8 +74,8 @@ Longer compositions sets:
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 4 | 0.2812 | 0.4688 | 0.2399 |
+| 5 | 0.2831 | 0.5312 | 0.2399 |
 
 ### Guided Attention LSTM
 
@@ -85,8 +86,8 @@ Heldout sets:
 | 1 | | | | |
 | 2 | | | | |
 | 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 4 | 0.9531 | 0.9750 | 0.6562 | 0.3750 |
+| 5 | 0.9219 | 0.9750 | 0.5104 | 0.3438 |
 
 Longer compositions sets:
 
@@ -95,5 +96,5 @@ Longer compositions sets:
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 4 | 0.2702 | 0.0938 | 0.2223 |
+| 5 | 0.2665 | 0.0625 | 0.2085 |
