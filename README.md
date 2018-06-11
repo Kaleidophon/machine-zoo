@@ -13,55 +13,87 @@ In the section we show the evaluation results for the selected models:
 
 Heldout sets:
 
-| Heldout compositions | Heldout inputs | Heldout tables | New compositions |
-| --------------------:|:-------------- |:-------------- |:---------------- |
-| | | | |
+| Run | Heldout compositions | Heldout inputs | Heldout tables | New compositions |
+| ---:| :------------------- |:-------------- |:-------------- |:---------------- |
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
 
 Longer compositions sets:
 
-| Compositions seen | Compositions new | Compositions incremental |
-| ------------------------:|:----------------------- |:------------------------------- |
-| | | |
+| Run | Compositions seen | Compositions new | Compositions incremental |
+| ---:|:----------------- |:---------------- |:------------------------ |
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
 
 
 ### Baseline LSTM
 
 Heldout sets:
 
-| Heldout compositions | Heldout inputs | Heldout tables | New compositions |
-| --------------------:|:-------------- |:-------------- |:---------------- |
-| | | | |
+| Run | Heldout compositions | Heldout inputs | Heldout tables | New compositions |
+| ---:| :------------------- |:-------------- |:-------------- |:---------------- |
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
 
 Longer compositions sets:
 
-| Compositions seen | Compositions new | Compositions incremental |
-| ------------------------:|:----------------------- |:------------------------------- |
-| | | |
+| Run | Compositions seen | Compositions new | Compositions incremental |
+| ---:|:----------------- |:---------------- |:------------------------ |
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
 
 ### Guided Attention GRU
 
 Heldout sets:
 
-| Heldout compositions | Heldout inputs | Heldout tables | New compositions |
-| --------------------:|:-------------- |:-------------- |:---------------- |
-| | | | |
+| Run | Heldout compositions | Heldout inputs | Heldout tables | New compositions |
+| ---:| :------------------- |:-------------- |:-------------- |:---------------- |
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
 
 Longer compositions sets:
 
-| Compositions seen | Compositions new | Compositions incremental |
-| ------------------------:|:----------------------- |:------------------------------- |
-| | | |
+| Run | Compositions seen | Compositions new | Compositions incremental |
+| ---:|:----------------- |:---------------- |:------------------------ |
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
 
 ### Guided Attention LSTM
 
 Heldout sets:
 
-| Heldout compositions | Heldout inputs | Heldout tables | New compositions |
-| --------------------:|:-------------- |:-------------- |:---------------- |
-| | | | |
+| Run | Heldout compositions | Heldout inputs | Heldout tables | New compositions |
+| ---:| :------------------- |:-------------- |:-------------- |:---------------- |
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
 
 Longer compositions sets:
 
-| Compositions seen | Compositions new | Compositions incremental |
-| ------------------------:|:----------------------- |:------------------------------- |
-| | | |
+| Run | Compositions seen | Compositions new | Compositions incremental |
+| ---:|:----------------- |:---------------- |:------------------------ |
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
