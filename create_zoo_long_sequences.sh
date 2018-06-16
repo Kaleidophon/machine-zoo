@@ -1,7 +1,7 @@
 #! /bin/sh
-TRAIN_PATH=../machine-tasks/LookupTablesIgnoreEOS/lookup-3bit/samples/sample1/train.tsv
-DEV_PATH=../machine-tasks/LookupTablesIgnoreEOS/lookup-3bit/samples/sample1/validation.tsv
-TEST_PATH=../machine-tasks/LookupTablesIgnoreEOS/lookup-3bit/samples/sample1/heldout_tables.tsv
+TRAIN_PATH=../machine-tasks/LookupTablesIgnoreEOSLength4/train.tsv
+DEV_PATH=../machine-tasks/LookupTablesIgnoreEOSLength4/validation.tsv
+TEST_PATH=../machine-tasks/LookupTablesIgnoreEOSLength4/heldout_tables.tsv
 
 EMB_SIZE=16
 H_SIZE=512
@@ -12,7 +12,7 @@ PRINT_EVERY=200
 SAVE_EVERY=200
 ATTN='pre-rnn'
 ATTN_METHOD='mlp'
-BATCH_SIZE=1
+BATCH_SIZE=10
 
 CELL='gru'
 echo 'BASELINE GRU'
