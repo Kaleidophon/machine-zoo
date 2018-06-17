@@ -12,11 +12,11 @@ TEST_PATH_6=../machine-tasks/LookupTablesIgnoreEOSLength4/longer_new_5.tsv
 TEST_PATH_7=../machine-tasks/LookupTablesIgnoreEOSLength4/longer_incremental_5.tsv
 
 
-EMB_SIZE=16
+EMB_SIZE=32
 H_SIZE=512
 DROPOUT_ENCODER=0
 DROPOUT_DECODER=0
-EPOCH=500
+EPOCH=200
 PRINT_EVERY=500
 SAVE_EVERY=500
 ATTN='pre-rnn'
