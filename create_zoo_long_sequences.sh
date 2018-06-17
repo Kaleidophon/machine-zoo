@@ -13,7 +13,7 @@ TEST_PATH_7=../machine-tasks/LookupTablesIgnoreEOSLength4/longer_incremental_5.t
 
 
 EMB_SIZE=32
-H_SIZE=512
+H_SIZE=1024
 DROPOUT_ENCODER=0
 DROPOUT_DECODER=0
 EPOCH=200
